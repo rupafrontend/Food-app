@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.wrapper{
+max-width: 90%;
+margin: 0 auto;
+}
+
+.logo{
+  cursor: pointer;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+nav ul {
+    display: flex;
+    list-style:none ;
+    gap: 80px;
+    margin: 50px auto;
+    transition: 0.5s;
+}
+
+nav ul :hover{
+  color: #FA4A0C;
+
+}
+
+nav ul li a{
+   font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #252B42;
+}
+
+.hero-section{
+    background-image: url("image/hero\ banner.png");
+    background-size:cover;
+    background-position: center;
+  
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 80px;
+}
+
+
+.hero-content h1{
+   font-family: 'Poppins', sans-serif;
+    font-size: 58px;
+ 
+    text-align: center;
+    color: white;
+}
+
+
+
+.hero-content h3{
+   font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    
+ }
+
+ .hero-content h4{
+   font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+
+ }
+
+.hero-button a{
+   display: inline-block;
+   font-size: 24px;
+   font-family: 'Montserrat', sans-serif;
+   border: 2px solid #FA4A0C;
+   color:white;
+   text-decoration: none;
+   border-radius: 30px; 
+   position:relative ;
+   padding: 16px 60px;
+   margin: 60px 10px;
+   cursor: pointer;
+   z-index: 1;
+}
+
+
+.hero-button a span{
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #FA4A0C;
+  z-index: -1;
+  transition: 0.5s;
+
+ }
+
+ .hero-button a:hover span{
+  width: 100%;
+  border-radius: 30px;
+  background-color:#FA4A0C;
+ }
+
+
+
+ .mobile-image{
+    position:absolute;
+    width: 548px;
+    height: 640px;
+    left: 380px;
+    top: 450px;
+  
+ }
+
+ .account-section h2{
+   font-family: 'Poppins', sans-serif;;
+    font-size: 44px;
+    position: absolute;
+    left: 495px;
+    top: 1320px;
+
+
+ }
+
+ .account-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 650px;
+ }
+
+ .account-wrapper > *{
+   flex-basis: 100%;
+ }
+
+ .account-content{
+   font-family: 'Montserrat', sans-serif;
+   width: 568px;
+ }
+
+ .account-wrapper h3{
+    font-size: 24px;
+    color: #FA4A0C;
+    padding-bottom: 20px;
+ }
+
+ .account-content h4{
+   font-size: 40px;
+   padding-bottom: 20px;
+
+ }
+
+ .account-content p{
+   font-size: 24px;
+
+ }
+ 
+ .explore-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+
+ .explore-wrapper > *{
+   flex-basis: 100%;
+ }
+
+ .explore-content {
+   font-family: 'Montserrat', sans-serif;
+   width: 568px;
+ }
+
+ .explore-content h3{
+   font-size: 24px;
+   color: #FA4A0C;
+   padding-bottom: 20px;
+
+ }
+
+ .explore-content h2{
+   font-size: 40px;
+   padding-bottom: 20px;
+
+ }
+
+ .explore-content p{
+   font-size: 24px;
+ }
+
+ .checkout-wrapper{
+    display: flex;
+    align-items: center;
+ }
+
+ .checkout-wrapper > *{
+   flex-basis: 100%;
+ }
+
+ .checkout-content{
+   font-family: 'Montserrat', sans-serif;
+ }
+
+
+ .checkout-content h3{
+   font-size: 24px;
+   color: #FA4A0C;
+   padding-bottom: 20px;
+   
+ }
+
+ .checkout-content h2{
+   font-size: 40px;
+   padding-bottom: 20px;
+ }
+
+ .checkout-content p{
+   font-size: 24px;
+ }
+
+ .download-section{
+    background-image: url('image/Rectangle\ 47.png');
+    background-position: cover;
+    height: 516px;
+   
+ }
+
+ .download-wrapper{
+display: flex;
+flex-direction: column;
+gap: 15px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+align-items: center;
+padding-top: 120px;
+}
+ 
+
+ .download-wrapper h2{
+   font-size: 40px;
+ }
+
+ .download-wrapper p{
+   font-size: 24px;
+ }
+
+ .download-button {
+   display: flex;
+ }
+ 
+ .download-button a{
+   display: inline-block;
+   text-decoration: none;
+   color: white;
+   border: 2px solid #FA4A0C;
+   border-radius: 5px;
+   padding: 18px 30px;
+   margin: 60px 10px;
+   position: relative;
+   z-index: 1;
+
+ }
+
+
+ .download-button a span{
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: 0.5s;
+
+ }
+
+ .download-button a:hover span{
+  width: 100%;
+  background-color:#FA4A0C;
+ }
+
+ .footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+@media (max-width:600px) {
+  .navigation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  }
+  nav ul{
+     gap: 40px;
+  }
+ 
+  .hero-content{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+}
+
+
+
+
+  
+   
+
+
